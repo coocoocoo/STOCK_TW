@@ -10,5 +10,5 @@ accReturn累積報酬率 = 賺得錢/投入成本
 """
 
 def AnnualizedReturn(accReturn,year):
-    sol = ((1+accReturn)^(1/year))-1
+    sol = ((1.0+accReturn)**(1.0/year))-1.0
     return sol
