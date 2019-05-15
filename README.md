@@ -1,2 +1,0 @@
-# StockAnalysis
-Analysis Stock Data
